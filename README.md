@@ -1,3 +1,25 @@
+# scad-utils
+
+
+## home, sweet home
+
+    git@github.com:michaeldallen/scad-utils.git
+
+
+## adopt me
+
+    git subtree add  --message 'mtools git subtree add locator - scad-utils\nrepo=git@github.com:michaeldallen/scad-utils.git\nprefix=scad-utils\nbranch=master' --prefix scad-utils git@github.com:michaeldallen/scad-utils.git master --squash
+
+
+## inherit updates from the mother ship
+
+    git subtree pull --prefix IoP-satellite git@github.com:michaeldallen/IoP-satellite.git master --squash
+
+
+## push our updates to the mother ship
+
+    git subtree push --prefix IoP-satellite git@github.com:michaeldallen/IoP-satellite.git master --squash
+
 scad-utils
 ==========
 
