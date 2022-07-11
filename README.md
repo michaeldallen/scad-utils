@@ -13,12 +13,15 @@
 
 ## inherit updates from the mother ship
 
-    git subtree pull --prefix IoP-satellite git@github.com:michaeldallen/IoP-satellite.git master --squash
+    git subtree pull --prefix scad-utils git@github.com:michaeldallen/scad-utils.git master --squash
 
 
 ## push our updates to the mother ship
 
-    git subtree push --prefix IoP-satellite git@github.com:michaeldallen/IoP-satellite.git master --squash
+    git subtree push --prefix scad-utils git@github.com:michaeldallen/scad-utils.git master --squash
+
+
+
 
 scad-utils
 ==========
